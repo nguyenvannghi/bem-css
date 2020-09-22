@@ -1,0 +1,17 @@
+.box {
+    margin: 0 -0.875rem;
+    &::after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+    &__top,
+    &__mid {
+        padding: 0 0.875rem;
+        margin-bottom: 1rem;
+    }
+    &__title {
+        font-size: 1.2rem;
+        margin-bottom: 0.875rem;
+    }
+}
