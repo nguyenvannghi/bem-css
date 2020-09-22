@@ -10,7 +10,7 @@
         "build-dev": "cross-env NODE_ENV=dev next build",
         "build-qc": "cross-env NODE_ENV=qc next build",
         "build-uat": "cross-env NODE_ENV=uat next build",
-        "build-production": "cross-env NODE_ENV=production next build",
+        "build": "cross-env NODE_ENV=production next build",
         "start": "next start",
         "prettier": "cross-env find . \\( -name node_modules -o -name __generated__ -o -name .next \\) -prune -or \\( -name '*.js' -o -name '*.jsx' -o -name '*.ts' -o -name '*.tsx' -o -name '*.ts' -o -name '*.html' -o -name '*.scss' -o -name '*.json' -o -name '*.md' \\) -print | xargs prettier --write"
     },
