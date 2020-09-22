@@ -29,7 +29,3 @@ export default function NotFound() {
         </NotFoundStyled>
     );
 }
-
-NotFound.getInitialProps = async () => ({
-    namespacesRequired: ['common'],
-});
