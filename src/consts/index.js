@@ -176,3 +176,9 @@ export const STYLED = {
     CSS: 'CSS',
     SASS: 'SASS',
 };
+
+export const STYLED1 = {
+    example1: 'Example1',
+    example2: 'Example2',
+    bem: 'BEM',
+};

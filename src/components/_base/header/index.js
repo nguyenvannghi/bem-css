@@ -8,6 +8,11 @@ const MENU = [
         description: 'About',
     },
     {
+        key: '/css-learning',
+        title: 'CSS Learning',
+        description: 'CSS Learning',
+    },
+    {
         key: 'example1',
         title: 'Example 1',
         description: 'Component With No Elements or Modifiers',

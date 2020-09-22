@@ -1,4 +1,4 @@
-import { FILE_TYPE, STYLED } from 'consts';
+import { FILE_TYPE, STYLED, STYLED1 } from 'consts';
 
 const randomAlphabets = () => Math.random().toString(36).substring(7);
 
@@ -48,11 +48,17 @@ const roundToExchangeFee = (inputValue) => {
 const renderContent = (data, key) => {
     switch (key) {
         case STYLED.HTML:
-            return data.html;
+            return data?.html;
         case STYLED.CSS:
-            return data.css;
+            return data?.css;
         case STYLED.SASS:
-            return data.sass;
+            return data?.sass;
+        case STYLED1.example1:
+            return data?.Example1;
+        case STYLED1.example2:
+            return data?.Example2;
+        case STYLED1.bem:
+            return data?.BEM;
         default:
             return null;
     }
